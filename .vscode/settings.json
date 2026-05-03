@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.prettierPath": "qwik-app/node_modules/prettier/index.mjs",
+    "prettier.configPath": "qwik-app/.prettierrc.json",
+    "prettier.requireConfig": true,
+    "prettier.resolveGlobalModules": false,
+    "git.ignoreLimitWarning": true
+}

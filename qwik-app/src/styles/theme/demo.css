@@ -1,0 +1,3006 @@
+:root,
+[data-theme="demo"] {
+    --advanced-freebet-background-default: #332b42;
+    --advanced-freebet-background-default-hover: #3c3250;
+    --advanced-freebet-background-selected: #c4a8ff;
+    --advanced-freebet-background-selected-hover: #9a7cd6;
+    --advanced-freebet-icon-default: #ffffff;
+    --advanced-freebet-icon-default-hover: #ffffff;
+    --advanced-freebet-icon-selected: #000000;
+    --advanced-freebet-icon-selected-hover: #000000;
+    --advanced-freebet-stroke-default: #332b4200;
+    --advanced-freebet-stroke-default-hover: #3c325000;
+    --advanced-freebet-stroke-selected: #c4a8ff00;
+    --advanced-freebet-stroke-selected-hover: #9a7cd600;
+    --advanced-freebet-text-default: #ffffff;
+    --advanced-freebet-text-selected: #000000;
+    --advanced-freebet-text-selected-body: #000000;
+    --advanced-freebet-text-selected-body-hover: #000000;
+    --advanced-freebet-text-selected-hover: #000000;
+    --advanced-menu-background-badge: #56f9c3;
+    --advanced-menu-background-badge-promotions: #56f9c31a;
+    --advanced-menu-background-highlight: #ffb64f1a;
+    --advanced-menu-background-hover: #141415;
+    --advanced-menu-background-main: #161617;
+    --advanced-menu-background-secondary: #0d0d0d;
+    --advanced-menu-background-tertiary: #282829;
+    --advanced-menu-control-deposit: #02d79e;
+    --advanced-menu-control-deposit-hover: #04e3a8;
+    --advanced-menu-control-disabled: #424244;
+    --advanced-menu-control-inactive-switcher: #525253;
+    --advanced-menu-control-primary: #fc9300;
+    --advanced-menu-control-primary-hover: #ffa407;
+    --advanced-menu-control-secondary: #202021;
+    --advanced-menu-control-secondary-hover: #313133;
+    --advanced-menu-control-stroke-deposit-default: #04e3a800;
+    --advanced-menu-control-stroke-deposit-hover: #02d79e00;
+    --advanced-menu-control-stroke-primary-default: #ffa40700;
+    --advanced-menu-control-stroke-primary-hover: #ffc57200;
+    --advanced-menu-control-stroke-secondary-default: #2a2a2c00;
+    --advanced-menu-control-stroke-secondary-hover: #38383a00;
+    --advanced-menu-control-switcher-active: #00bc8d;
+    --advanced-menu-control-switcher-knob: #ffffff;
+    --advanced-menu-control-tertiary: #2d2d2f;
+    --advanced-menu-control-tertiary-hover: #202021;
+    --advanced-menu-control-text-button: #faf9f800;
+    --advanced-menu-control-text-button-hover: #424244;
+    --advanced-menu-divider-main: #ffffff0a;
+    --advanced-menu-icon-always-dark: #424244;
+    --advanced-menu-icon-always-white: #ffffff;
+    --advanced-menu-icon-chevron: #757577;
+    --advanced-menu-icon-deposit: #02d79e;
+    --advanced-menu-icon-deposit-button: #000000cc;
+    --advanced-menu-icon-disabled: #424244;
+    --advanced-menu-icon-inversion: #faf9f8;
+    --advanced-menu-icon-loader: #16c481;
+    --advanced-menu-icon-main: #9e9ea0;
+    --advanced-menu-icon-notification: #ff3333;
+    --advanced-menu-icon-primary: #ffb64f;
+    --advanced-menu-icon-primary-control: #000000e5;
+    --advanced-menu-section-casino: #f19fe8;
+    --advanced-menu-section-casino-alt: #dd86e0;
+    --advanced-menu-section-gamification: #8f6ed4;
+    --advanced-menu-section-live: #ff6964;
+    --advanced-menu-section-sport: #7ecef1;
+    --advanced-menu-text-always-dark: #000000e5;
+    --advanced-menu-text-always-white: #ffffff;
+    --advanced-menu-text-badge: #000000e5;
+    --advanced-menu-text-badge-promotions: #04e3a8;
+    --advanced-menu-text-body: #ffffff99;
+    --advanced-menu-text-counter: #ffffff;
+    --advanced-menu-text-deposit-button: #000000e5;
+    --advanced-menu-text-disabled: #ffffff5c;
+    --advanced-menu-text-link: #00eb9c;
+    --advanced-menu-text-primary: #ffb64f;
+    --advanced-menu-text-primary-control: #000000e5;
+    --advanced-menu-text-subtitle: #ffffffcc;
+    --advanced-menu-text-title: #ffffff;
+    --advanced-sidebar-background-main: #161617;
+    --advanced-sidebar-background-secondary: #0d0d0d;
+    --advanced-sidebar-border-main: #ffffff00;
+    --advanced-sidebar-control-deposit: #02d79e;
+    --advanced-sidebar-control-deposit-hover: #04e3a8;
+    --advanced-sidebar-control-inactive-switcher: #525253;
+    --advanced-sidebar-control-secondary: #0d0d0d;
+    --advanced-sidebar-control-secondary-hover: #151515;
+    --advanced-sidebar-control-stroke-deposit-default: #02d79e00;
+    --advanced-sidebar-control-stroke-deposit-hover: #04e3a800;
+    --advanced-sidebar-control-stroke-primary-default: #ffa40700;
+    --advanced-sidebar-control-stroke-primary-hover: #fc930000;
+    --advanced-sidebar-control-stroke-secondary-default: #2a2a2c00;
+    --advanced-sidebar-control-stroke-secondary-hover: #38383a00;
+    --advanced-sidebar-control-switcher-active: #00bc8d;
+    --advanced-sidebar-control-switcher-knob: #ffffff;
+    --advanced-sidebar-control-switcheroff-disabled: #52525366;
+    --advanced-sidebar-control-switcheron-disabled: #00bc8d66;
+    --advanced-sidebar-control-tertiary: #141415;
+    --advanced-sidebar-control-text-button-hover: #424244;
+    --advanced-sidebar-divider-main: #ffffff0a;
+    --advanced-sidebar-icon-chevron: #757577;
+    --advanced-sidebar-icon-deposit: #02d79e;
+    --advanced-sidebar-icon-deposit-button: #000000e5;
+    --advanced-sidebar-icon-inversion: #fafafc;
+    --advanced-sidebar-icon-main: #9e9ea08a;
+    --advanced-sidebar-icon-notification: #ff3333;
+    --advanced-sidebar-icon-primary-control: #000000e5;
+    --advanced-sidebar-segment-background-default: #0d0d0d;
+    --advanced-sidebar-segment-background-default-hover: #16161724;
+    --advanced-sidebar-segment-background-selected: #161617;
+    --advanced-sidebar-segment-divider-main: #ffffff0a;
+    --advanced-sidebar-segment-icon-default: #9e9ea08a;
+    --advanced-sidebar-segment-icon-selected: #9e9ea08a;
+    --advanced-sidebar-segment-stroke-default: #0d0d0d;
+    --advanced-sidebar-segment-stroke-default-hover: #16161724;
+    --advanced-sidebar-segment-stroke-selected: #161617;
+    --advanced-sidebar-segment-text-default: #ffffffe0;
+    --advanced-sidebar-segment-text-selected: #ffffffe0;
+    --advanced-sidebar-text-always-white: #ffffffe0;
+    --advanced-sidebar-text-body: #ffffff8a;
+    --advanced-sidebar-text-deposit-button: #000000e5;
+    --advanced-sidebar-text-deposit-double-button: #000000d6;
+    --advanced-sidebar-text-link: #00d68f;
+    --advanced-sidebar-text-primary-control: #000000e5;
+    --advanced-sidebar-text-primary-double-button: #000000c7;
+    --advanced-sidebar-text-regular: #ffffffd1;
+    --advanced-sidebar-text-subtitle: #ffffffad;
+    --advanced-sidebar-text-title: #ffffffe0;
+    --advanced-tooltip-background-main: #f4f4f6;
+    --advanced-tooltip-divider-main: #2929291a;
+    --advanced-tooltip-icon-main: #1c1c1d;
+    --advanced-tooltip-text-body: #0000008f;
+    --advanced-tooltip-text-title: #000000e5;
+    --background-badge: #56f9c3;
+    --background-banner: #00000080;
+    --background-counter: #ff3333;
+    --background-header: #0d0d0d;
+    --background-header-hover: #171717;
+    --background-highlight: #ffb64f33;
+    --background-hover: #141415;
+    --background-input: #1c1c1d00;
+    --background-inversion: #f4f4f6;
+    --background-main: #1c1c1d;
+    --background-modalview: #000000cc;
+    --background-secondary: #0d0d0d;
+    --background-tabbar: #0d0d0d;
+    --background-tertiary: #2d2d2f;
+    --background-toasts: #2a2a2c;
+    --background-tooltip: #fafafc;
+    --checkbox-background-default: #0d0d0d14;
+    --checkbox-background-default-disabled: #0d0d0d14;
+    --checkbox-background-default-hover: #0d0d0d14;
+    --checkbox-background-indeterminate: #02d79e;
+    --checkbox-background-indeterminate-disabled: #02d79e66;
+    --checkbox-background-indeterminate-hover: #04e3a8;
+    --checkbox-background-selected: #02d79e;
+    --checkbox-background-selected-disabled: #02d79e66;
+    --checkbox-background-selected-hover: #04e3a8;
+    --checkbox-background-slected-hover: #ffffff;
+    --checkbox-icon-indeterminate: #222223;
+    --checkbox-icon-indeterminate-disabled: #22222399;
+    --checkbox-icon-indeterminate-hover: #222223;
+    --checkbox-icon-selected: #222223;
+    --checkbox-icon-selected-disabled: #22222399;
+    --checkbox-icon-selected-hover: #222223;
+    --checkbox-stroke-default: #646466;
+    --checkbox-stroke-default-disabled: #64646699;
+    --checkbox-stroke-default-hover: #737376;
+    --checkbox-stroke-indeterminate: #02d79e00;
+    --checkbox-stroke-indeterminate-disabled: #02d79e00;
+    --checkbox-stroke-indeterminate-hover: #04e3a800;
+    --checkbox-stroke-selected: #02d79e00;
+    --checkbox-stroke-selected-disabled: #02d79e00;
+    --checkbox-stroke-selected-hover: #04e3a800;
+    --checkbox-stroke-slected-hover: #008f5f00;
+    --chips-background-default: #2a2a2c;
+    --chips-background-default-disabled: #61616399;
+    --chips-background-default-hover: #2a2a2ccc;
+    --chips-background-selected: #00503599;
+    --chips-background-selected-disabled: #0050354d;
+    --chips-background-selected-hover: #00503580;
+    --chips-icon-default: #ffffffcc;
+    --chips-icon-default-disabled: #ffffff66;
+    --chips-icon-default-hover: #fffffff2;
+    --chips-icon-selected: #fffffff2;
+    --chips-icon-selected-disabled: #ffffff66;
+    --chips-icon-selected-hover: #fffffff2;
+    --chips-stroke-default: #ffffff00;
+    --chips-stroke-default-disabled: #ffffff00;
+    --chips-stroke-default-hover: #2a2a2c00;
+    --chips-stroke-selected: #2a2a2c00;
+    --chips-stroke-selected-disabled: #2a2a2c00;
+    --chips-stroke-selected-hover: #37373900;
+    --chips-text-default: #ffffffd9;
+    --chips-text-default-disabled: #ffffff66;
+    --chips-text-default-hover: #fffffff2;
+    --chips-text-selected: #fffffff2;
+    --chips-text-selected-disabled: #ffffff66;
+    --chips-text-selected-hover: #fffffff2;
+    --control-always-white: #ffffff;
+    --control-always-white-hover: #e0e0e2;
+    --control-betbuilder: #25343d;
+    --control-boosted-odd: #02d79e33;
+    --control-boosted-odd-hover: #02d79e66;
+    --control-casino: #3d243c;
+    --control-chips-active: #2a2a2c;
+    --control-deposit: #02d79e;
+    --control-deposit-hover: #04e3a8;
+    --control-destructive: #ff6964;
+    --control-disabled: #2d2d2f;
+    --control-disabled-always-light: #e0e0e2;
+    --control-early-payout: #2e2b40;
+    --control-enhanced-prices: #472a3b;
+    --control-error: #f549431a;
+    --control-freebet: #b293f4;
+    --control-inactive-switcher: #525253;
+    --control-information: #5ec7ff1a;
+    --control-quaternary: #222223;
+    --control-quick-bet-button: #8ee14a;
+    --control-savebet: #b293f4;
+    --control-secondary: #2a2a2c;
+    --control-secondary-hover: #343436;
+    --control-sport: #2b3b43;
+    --control-sport-bonus: #5a67d7;
+    --control-sport-express: #ff8c00;
+    --control-stroke-deposit-default: #02d79e00;
+    --control-stroke-deposit-hover: #04e3a800;
+    --control-stroke-disabled-default: #2e2e3000;
+    --control-stroke-primary-default: #fc930000;
+    --control-stroke-primary-hover: #ffa40700;
+    --control-stroke-secondary-default: #2a2a2c00;
+    --control-stroke-secondary-hover: #38383a00;
+    --control-stroke-tertiary-default: #37373900;
+    --control-stroke-tertiary-hover: #2a2a2c00;
+    --control-stroke-textbutton-default: #fafafc00;
+    --control-stroke-textbutton-hover: #2b2b2c00;
+    --control-success: #00d68f1a;
+    --control-switcher-active: #00bc8d;
+    --control-switcher-knob: #ffffff;
+    --control-switcheroff-disabled: #52525366;
+    --control-switcheron-disabled: #00bc8d66;
+    --control-tertiary: #242426;
+    --control-tertiary-hover: #2a2a2c;
+    --control-text-button: #2a2a2c00;
+    --control-text-button-hover: #2a2a2c;
+    --control-warning: #e37b4c1a;
+    --divider-always-dark: #2929291a;
+    --divider-always-white: #ffffff0a;
+    --divider-inversion: #2929291a;
+    --divider-main: #ffffff1a;
+    --dynamic-blue: #132f49;
+    --dynamic-citric: #254818;
+    --dynamic-dark-blue: #132049;
+    --dynamic-green: #0b3b2f;
+    --dynamic-orange: #492b13;
+    --dynamic-pink: #491342;
+    --dynamic-violet: #231349;
+    --dynamic-yellow: #494511;
+    --field-background-default: #1c1c1d;
+    --field-background-default-hover: #1c1c1d;
+    --field-background-disabled: #2e2e30;
+    --field-background-error: #1c1c1d;
+    --field-background-error-hover: #1c1c1d;
+    --field-background-focused: #1c1c1d;
+    --field-divider-default: #ffffff1a;
+    --field-divider-default-hover: #ffffff1a;
+    --field-divider-disabled: #616163;
+    --field-divider-error: #f549431a;
+    --field-divider-error-hover: #ffffff1a;
+    --field-divider-focused: #ffffff1a;
+    --field-hint-default: #ffffffa6;
+    --field-hint-default-hover: #ffffffa6;
+    --field-hint-disabled: #ffffff66;
+    --field-hint-error: #f54943;
+    --field-hint-error-hover: #ffffffa6;
+    --field-hint-focused: #ffffffa6;
+    --field-icon-default: #9e9ea0;
+    --field-icon-default-hover: #9e9ea0;
+    --field-icon-disabled: #616163;
+    --field-icon-error: #f54943;
+    --field-icon-error-hover: #f54943;
+    --field-icon-focused: #9e9ea0;
+    --field-label-default: #ffffffa6;
+    --field-label-default-hover: #9e9ea0;
+    --field-label-disabled: #ffffff66;
+    --field-label-error: #f54943;
+    --field-label-error-hover: #ffffffa6;
+    --field-label-focused: #ffffffa6;
+    --field-placeholder-default: #ffffffa6;
+    --field-placeholder-default-hover: #ffffffa6;
+    --field-placeholder-disabled: #ffffff66;
+    --field-placeholder-error: #f54943;
+    --field-placeholder-error-hover: #f54943;
+    --field-placeholder-focused: #ffffff66;
+    --field-stroke-default: #353537;
+    --field-stroke-default-hover: #353537;
+    --field-stroke-disabled: #424244;
+    --field-stroke-error: #ff6964;
+    --field-stroke-error-hover: #ff6964;
+    --field-stroke-focused: #9e9ea0;
+    --field-title-default: #ffffff;
+    --field-title-default-hover: #ffffff;
+    --field-title-disabled: #ffffff66;
+    --field-title-error: #ffffff;
+    --field-title-error-hover: #ffffff;
+    --field-title-focused: #ffffff;
+    --gradient-first-position: #424244;
+    --gradient-loading: linear-gradient(180deg, #2e2e30 0%, #2e2e30 100%);
+    --gradient-loading-always-light: linear-gradient(
+        180deg,
+        #2e2e30 0%,
+        #2e2e30 100%
+    );
+    --gradient-loading-deposit: linear-gradient(
+        180deg,
+        #2e2e30 0%,
+        #2e2e30 100%
+    );
+    --gradient-loading-outcome: linear-gradient(
+        180deg,
+        #363637 0%,
+        #363637 100%
+    );
+    --gradient-second-position: #6161631a;
+    --header-main-background-default: #0d0d0d;
+    --header-main-background-default-hover: #171717;
+    --header-main-button-deposit-background-default: #02d79e;
+    --header-main-button-deposit-background-default-hover: #04e3a8;
+    --header-main-button-deposit-icon: #ffffff;
+    --header-main-button-deposit-icon-main-default: #000000e5;
+    --header-main-button-deposit-stroke-default: #02d79e00;
+    --header-main-button-deposit-stroke-default-hover: #04e3a800;
+    --header-main-button-deposit-text-title-default: #000000e5;
+    --header-main-button-deposit-title: #ffffff;
+    --header-main-button-primary-icon: #ffffff;
+    --header-main-button-primary-icon-main-default: #000000e5;
+    --header-main-button-primary-stroke-default: #fc930000;
+    --header-main-button-primary-stroke-default-hover: #ffa40700;
+    --header-main-button-primary-text-title-default: #000000e5;
+    --header-main-button-primary-title: #ffffff;
+    --header-main-button-secondary-background-default: #1d1d1e;
+    --header-main-button-secondary-background-default-hover: #232325;
+    --header-main-button-secondary-icon: #ffffff;
+    --header-main-button-secondary-icon-main-default: #9e9ea0;
+    --header-main-button-secondary-stroke-default: #1d1d1e00;
+    --header-main-button-secondary-stroke-default-hover: #23232500;
+    --header-main-button-secondary-text-title-default: #ffffff;
+    --header-main-button-secondary-title: #ffffff;
+    --header-main-icon-default: #bcbcbe;
+    --header-main-icon-selected: #fc9300;
+    --header-main-text-link: #00d68f;
+    --header-main-text-subtitle-default: #ffffffe0;
+    --header-main-text-title-default: #ffffff;
+    --header-main-text-title-selected: #fc9300;
+    --header-secondary-background-default: #1c1c1d;
+    --header-secondary-background-default-hover: #171717;
+    --header-secondary-button-deposit-background-default: #02d79e;
+    --header-secondary-button-deposit-background-default-hover: #04e3a8;
+    --header-secondary-button-deposit-icon: #ffffff;
+    --header-secondary-button-deposit-icon-icon-default: #000000e5;
+    --header-secondary-button-deposit-icon-main-default: #000000e5;
+    --header-secondary-button-deposit-stroke-default: #02d79e00;
+    --header-secondary-button-deposit-stroke-default-hover: #04e3a800;
+    --header-secondary-button-deposit-text-title-default: #000000e5;
+    --header-secondary-button-deposit-title: #ffffff;
+    --header-secondary-button-primary-icon: #ffffff;
+    --header-secondary-button-primary-icon-icon-default: #000000e5;
+    --header-secondary-button-primary-icon-main-default: #000000e5;
+    --header-secondary-button-primary-stroke-default: #fc930000;
+    --header-secondary-button-primary-stroke-default-hover: #ffa40700;
+    --header-secondary-button-primary-text-title-default: #000000e5;
+    --header-secondary-button-primary-title: #ffffff;
+    --header-secondary-button-secondary-background-default: #2a2a2c;
+    --header-secondary-button-secondary-background-default-hover: #343436;
+    --header-secondary-button-secondary-icon: #ffffff;
+    --header-secondary-button-secondary-icon-icon-default: #9e9ea0;
+    --header-secondary-button-secondary-icon-main-default: #9e9ea0;
+    --header-secondary-button-secondary-stroke-default: #1d1d1e00;
+    --header-secondary-button-secondary-stroke-default-hover: #23232500;
+    --header-secondary-button-secondary-text-title-default: #ffffff;
+    --header-secondary-button-secondary-title: #ffffff;
+    --header-secondary-icon-default: #9e9ea0;
+    --header-secondary-icon-selected: #fc9300;
+    --header-secondary-text-link: #00d68f;
+    --header-secondary-text-subtitle-default: #ffffff94;
+    --header-secondary-text-title-default: #ffffff;
+    --header-secondary-text-title-selected: #ffc572;
+    --icon-always-dark: #0d0d0d;
+    --icon-always-white: #ffffff;
+    --icon-betbuilder: #5ec7ff;
+    --icon-boosted-odd: #02d79e;
+    --icon-card-red: #eb5e5e;
+    --icon-card-yellow: #ffcb52;
+    --icon-casino: #d95cd0;
+    --icon-chevron: #757577;
+    --icon-deposit: #02d79e;
+    --icon-deposit-button: #000000e5;
+    --icon-disabled: #616163;
+    --icon-disabled-always-light: #9e9ea0;
+    --icon-early-payout: #8d7ee2;
+    --icon-enhanced-prices: #f762b6;
+    --icon-error: #f54943;
+    --icon-favorite-default: #9e9ea0;
+    --icon-favorite-selected: #fc9300;
+    --icon-header-active: #fc9300;
+    --icon-header-inactive: #bcbcbe;
+    --icon-hover: #e0e0e2;
+    --icon-information: #0795e0;
+    --icon-inversion: #1c1c1d;
+    --icon-live: #eb5e5e;
+    --icon-loader: #16c481;
+    --icon-logotype: #ffb64f;
+    --icon-main: #9e9ea0;
+    --icon-notification: #ff3333;
+    --icon-pitch: #68d491;
+    --icon-primary: #ffa407;
+    --icon-primary-control: #000000e5;
+    --icon-quick-bet: #8ee14a;
+    --icon-sport: #55e0ff;
+    --icon-statistics: #f3b679;
+    --icon-success: #16c481;
+    --icon-tabbar: #fc9300;
+    --icon-tabbar-inactive: #9e9ea0;
+    --icon-top-parlay: #d0eb45;
+    --icon-warning: #e37b4c;
+    --menu-background-badge: #56f9c3;
+    --menu-background-badge-promotions: #56f9c31a;
+    --menu-background-highlight: #ffb64f1a;
+    --menu-background-hover: #141415;
+    --menu-background-main: #161617;
+    --menu-background-secondary: #0d0d0d;
+    --menu-background-tertiary: #282829;
+    --menu-control-deposit: #02d79e;
+    --menu-control-deposit-hover: #04e3a8;
+    --menu-control-disabled: #424244;
+    --menu-control-inactive-switcher: #525253;
+    --menu-control-secondary: #2a2a2c;
+    --menu-control-secondary-hover: #38383a;
+    --menu-control-stroke-deposit-default: #02d79e00;
+    --menu-control-stroke-deposit-hover: #04e3a800;
+    --menu-control-stroke-disabled-default: #2e2e3000;
+    --menu-control-stroke-primary-default: #fc930000;
+    --menu-control-stroke-primary-hover: #ffa40700;
+    --menu-control-stroke-secondary-default: #2a2a2c00;
+    --menu-control-stroke-secondary-hover: #38383a00;
+    --menu-control-stroke-tertiary-default: #37373900;
+    --menu-control-stroke-tertiary-hover: #2a2a2c00;
+    --menu-control-stroke-textbutton-default: #fafafc00;
+    --menu-control-stroke-textbutton-hover: #2b2b2c00;
+    --menu-control-switcher-active: #00bc8d;
+    --menu-control-switcher-knob: #ffffff;
+    --menu-control-tertiary: #242426;
+    --menu-control-tertiary-hover: #2a2a2c;
+    --menu-control-text-button: #faf9f800;
+    --menu-control-text-button-hover: #424244;
+    --menu-divider-main: #ffffff0a;
+    --menu-icon-always-dark: #424244;
+    --menu-icon-always-white: #ffffff;
+    --menu-icon-chevron: #757577;
+    --menu-icon-deposit: #02d79e;
+    --menu-icon-deposit-button: #000000cc;
+    --menu-icon-disabled: #424244;
+    --menu-icon-inversion: #faf9f8;
+    --menu-icon-loader: #16c481;
+    --menu-icon-main: #9e9ea0;
+    --menu-icon-notification: #ff3333;
+    --menu-icon-primary: #ffb64f;
+    --menu-icon-primary-control: #000000e5;
+    --menu-section-casino: #f19fe8;
+    --menu-section-casino-alt: #dd86e0;
+    --menu-section-gamification: #8f6ed4;
+    --menu-section-live: #ff6964;
+    --menu-section-sport: #7ecef1;
+    --menu-stroke-container-default: #ffffff1a;
+    --menu-stroke-container-default-hover: #ffffff1a;
+    --menu-stroke-item-default: #ffffff1a;
+    --menu-stroke-item-default-hover: #ffffff1a;
+    --menu-text-always-dark: #000000e5;
+    --menu-text-always-white: #ffffff;
+    --menu-text-badge: #000000e5;
+    --menu-text-badge-promotions: #04e3a8;
+    --menu-text-body: #ffffff8a;
+    --menu-text-counter: #ffffff;
+    --menu-text-deposit-button: #000000e5;
+    --menu-text-deposit-double-button: #000000d6;
+    --menu-text-disabled: #ffffff5c;
+    --menu-text-link: #00d68f;
+    --menu-text-primary: #ffb64f;
+    --menu-text-primary-control: #000000e5;
+    --menu-text-primary-double-button: #000000c7;
+    --menu-text-subtitle: #ffffffad;
+    --menu-text-title: #ffffffe0;
+    --outcome-background-boosted: #02d79e33;
+    --outcome-background-boosted-hover: #02d79e66;
+    --outcome-background-default: #2a2a2c;
+    --outcome-background-default-hover: #38383a;
+    --outcome-background-disabled: #2e2e30;
+    --outcome-background-float: #ffffff4d;
+    --outcome-stroke-boosted: #02d79e33;
+    --outcome-stroke-boosted-hover: #02d79e66;
+    --outcome-stroke-default: #2a2a2c;
+    --outcome-stroke-default-hover: #38383a;
+    --outcome-stroke-disabled: #2e2e30;
+    --outcome-stroke-selected: #fc9300;
+    --outcome-stroke-selected-hover: #ffa407;
+    --outcome-subtitle-boosted: #ffffffa6;
+    --outcome-subtitle-default: #ffffffa6;
+    --outcome-subtitle-default-hover: #ffffffd1;
+    --outcome-subtitle-disabled: #ffffff66;
+    --outcome-subtitle-selected: #000000c7;
+    --outcome-subtitle-selected-hover: #000000c7;
+    --outcome-subtitle-total: #ffffffa6;
+    --outcome-title-boosted: #02d79e;
+    --outcome-title-default: #55e0ff;
+    --outcome-title-default-hover: #ffffff;
+    --outcome-title-disabled: #ffffff66;
+    --outcome-title-down: #e9423c;
+    --outcome-title-selected: #000000e5;
+    --outcome-title-selected-hover: #000000e5;
+    --outcome-title-total: #ffffff;
+    --outcome-title-up: #02d79e;
+    --radio-background-default: #64646600;
+    --radio-background-default-disabled: #64646600;
+    --radio-background-default-hover: #73737600;
+    --radio-background-selected: #00bc8d00;
+    --radio-background-selected-disabled: #00bc8d00;
+    --radio-background-selected-hover: #00bc8d00;
+    --radio-background-slected-hover: #ffffff;
+    --radio-icon-selected: #15151500;
+    --radio-icon-selected-disabled: #17171600;
+    --radio-icon-selected-hover: #15151500;
+    --radio-stroke-default: #545457;
+    --radio-stroke-default-disabled: #54545799;
+    --radio-stroke-default-hover: #737376;
+    --radio-stroke-selected: #00bc8d;
+    --radio-stroke-selected-disabled: #00bc8d66;
+    --radio-stroke-selected-hover: #04e3a8;
+    --section-bronze: #b66b4f;
+    --section-casino: #f19fe8;
+    --section-casino-alt: #dd86e0;
+    --section-casino-position: #2f1b2f;
+    --section-fast-markets-default: #024073;
+    --section-gamification: #8f6ed4;
+    --section-gamification-event: #c31347;
+    --section-gold: #ebc156;
+    --section-live: #eb5e5e;
+    --section-mystery-duck: #f7a24c;
+    --section-outcome-promo: #55e0ff1f;
+    --section-position: #29294d;
+    --section-silver: #b1b1b1;
+    --section-sport: #7ecef1;
+    --section-win-bonus: #149a66;
+    --segment-background-default: #262627;
+    --segment-background-default-hover: #2f2f2f;
+    --segment-background-selected: #3a3a3b;
+    --segment-divider-main: #ffffff1a;
+    --segment-icon-default: #9e9ea0;
+    --segment-icon-selected: #ffffff;
+    --segment-stroke-default: #403c3400;
+    --segment-stroke-default-hover: #22222300;
+    --segment-stroke-selected: #17171600;
+    --segment-text-default: #ffffffe0;
+    --segment-text-selected: #ffffff;
+    --shadow-button: #00000000;
+    --shadow-menu-container-default: #00000000;
+    --shadow-menu-container-default-hover: #00000000;
+    --shadow-menu-item-default: #00000000;
+    --shadow-menu-item-default-hover: #00000000;
+    --shadow-toasts: #00000000;
+    --sport-filter-background: #1c1c1d;
+    --sport-filter-divider: #ffffff0f;
+    --sport-filter-icon: #9e9ea0;
+    --sport-filter-item-default-background: #2d2d2f;
+    --sport-filter-item-default-background-hover: #1d312a;
+    --sport-filter-item-default-icon: #9e9ea0;
+    --sport-filter-item-default-icon-hover: #7ae1be;
+    --sport-filter-item-default-stroke: #20202100;
+    --sport-filter-item-default-stroke-hover: #09825a;
+    --sport-filter-item-default-title: #ffffffbf;
+    --sport-filter-item-selected-background: #073728;
+    --sport-filter-item-selected-background-hover: #153329;
+    --sport-filter-item-selected-icon: #00c694;
+    --sport-filter-item-selected-icon-hover: #02d79e;
+    --sport-filter-item-selected-stroke: #33b98d;
+    --sport-filter-item-selected-stroke-hover: #065238;
+    --sport-filter-item-selected-title: #ffffff;
+    --sport-filter-live-label-background: #ff3333;
+    --sport-filter-live-label-title: #ffffff;
+    --sport-filter-new-label-background: #10f4b4;
+    --sport-filter-new-label-title: #000000;
+    --tabs-background-default: #ffffff00;
+    --tabs-background-default-disabled: #ffffff00;
+    --tabs-background-default-hover: #2a2a2c;
+    --tabs-background-selected: #2a2a2c;
+    --tabs-background-selected-disabled: #2a2a2c80;
+    --tabs-background-selected-hover: #373739;
+    --tabs-icon-default: #ffffffcc;
+    --tabs-icon-default-disabled: #ffffff66;
+    --tabs-icon-default-hover: #fffffff2;
+    --tabs-icon-selected: #fffffff2;
+    --tabs-icon-selected-disabled: #ffffff66;
+    --tabs-icon-selected-hover: #fffffff2;
+    --tabs-stroke-default: #ffffff00;
+    --tabs-stroke-default-disabled: #ffffff00;
+    --tabs-stroke-default-hover: #2a2a2c00;
+    --tabs-stroke-selected: #2a2a2c00;
+    --tabs-stroke-selected-disabled: #2a2a2c00;
+    --tabs-stroke-selected-hover: #2a2a2c00;
+    --tabs-text-default: #ffffffd9;
+    --tabs-text-default-disabled: #ffffff66;
+    --tabs-text-default-hover: #fffffff2;
+    --tabs-text-selected: #fffffff2;
+    --tabs-text-selected-disabled: #ffffff66;
+    --tabs-text-selected-hover: #fffffff2;
+    --text-field-disabled: #424244;
+    --text-field-error: #ff6964;
+    --text-field-focused: #9e9ea0;
+    --text-field-outline: #353537;
+    --text-always-dark: #000000e5;
+    --text-always-light: #ffffff99;
+    --text-always-white: #ffffff;
+    --text-badge: #000000;
+    --text-betbuilder: #5ec7ff;
+    --text-body: #ffffffa6;
+    --text-boosted-odd: #02d79e;
+    --text-casino: #d95cd0;
+    --text-counter: #ffffff;
+    --text-deposit: #02d79e;
+    --text-deposit-button: #000000e5;
+    --text-deposit-double-button: #000000d6;
+    --text-disable: #ffffff66;
+    --text-early-payout: #8d7ee2;
+    --text-enhanced-prices: #f762b6;
+    --text-error: #fb4c46;
+    --text-header-title: #ffffffe0;
+    --text-information: #3eafec;
+    --text-inversion: #0d0d0d;
+    --text-light: #ffffffad;
+    --text-link: #00d68f;
+    --text-link-light: #009e69;
+    --text-live: #eb5e5e;
+    --text-outcome: #55e0ff;
+    --text-outcome-down: #ff6964;
+    --text-outcome-up: #02d79e;
+    --text-primary: #ffa407;
+    --text-primary-control: #000000e5;
+    --text-primary-double-button: #000000c7;
+    --text-quick-bet: #8ee14a;
+    --text-regular: #ffffffd1;
+    --text-sport: #55e0ff;
+    --text-subtitle: #ffffffd1;
+    --text-success: #03b67a;
+    --text-title: #ffffff;
+    --text-top-parlay: #d0eb45;
+    --text-warning: #d57e40;
+    --toast-default-background: #2a2a2c;
+    --toast-default-body: #ffffffa6;
+    --toast-default-chevron: #757577;
+    --toast-default-icon: #9e9ea0;
+    --toast-default-title: #ffffff;
+    --toast-error-background: #602a28;
+    --toast-error-body: #eaaeae;
+    --toast-error-chevron: #ba6969;
+    --toast-error-icon: #f54943;
+    --toast-error-title: #ffffff;
+    --toast-information-background: #29607d;
+    --toast-information-body: #a1d7f2;
+    --toast-information-chevron: #64abce;
+    --toast-information-icon: #5ec7ff;
+    --toast-information-title: #ffffff;
+    --toast-success-background: #19704f;
+    --toast-success-body: #b4f9de;
+    --toast-success-chevron: #37ae81;
+    --toast-success-icon: #16c481;
+    --toast-success-title: #ffffff;
+    --toast-warning-background: #673c28;
+    --toast-warning-body: #ebc3b2;
+    --toast-warning-chevron: #bf8369;
+    --toast-warning-icon: #e37b4c;
+    --toast-warning-title: #ffffff;
+    --toggle-background-default: #525253;
+    --toggle-background-default-disabled: #52525366;
+    --toggle-background-default-hover: #5a5a5b;
+    --toggle-background-selected: #00bc8d;
+    --toggle-background-selected-disabled: #00bc8d66;
+    --toggle-background-selected-hover: #00c694;
+    --toggle-knob-default: #ffffff;
+    --toggle-knob-default-disabled: #ffffff99;
+    --toggle-knob-default-hover: #ffffff;
+    --toggle-knob-selected: #ffffff;
+    --toggle-knob-selected-disabled: #ffffff99;
+    --toggle-knob-selected-hover: #ffffff;
+    --toggle-stroke-default: #52525300;
+    --toggle-stroke-default-disabled: #52525300;
+    --toggle-stroke-default-hover: #5a5a5b00;
+    --toggle-stroke-knob-default: #42424400;
+    --toggle-stroke-knob-default-disabled: #42424400;
+    --toggle-stroke-knob-default-hover: #42424400;
+    --toggle-stroke-knob-selected: #19a66100;
+    --toggle-stroke-knob-selected-disabled: #19a66100;
+    --toggle-stroke-knob-selected-hover: #00954f00;
+    --toggle-stroke-selected: #00bc8d00;
+    --toggle-stroke-selected-disabled: #00bc8d00;
+    --toggle-stroke-selected-hover: #00c69400;
+    --gradient-background-profile: linear-gradient(
+        63.43deg,
+        #844daf 22.64%,
+        #ec940f 100%
+    );
+    --gradient-bet-builder: linear-gradient(
+        63.43deg,
+        #fbca4d 0%,
+        #f66c6c 50%,
+        #fbca4d 100%
+    );
+    --gradient-black-down: linear-gradient(
+        0deg,
+        #17171600 0%,
+        #17171680 65%,
+        #17171680 100%
+    );
+    --gradient-black-up: linear-gradient(
+        180deg,
+        #17171600 0%,
+        #17171680 65%,
+        #17171680 100%
+    );
+    --gradient-progress-bar: linear-gradient(
+        63.43deg,
+        #ff6a66 0%,
+        #af85c1 100%
+    );
+    --gradient-share-hologram: linear-gradient(
+        0deg,
+        #cf5c5c 0%,
+        #c19b4a 10.07%,
+        #def2a0 19.98%,
+        #c6ee4a 29.89%,
+        #42eca6 40.03%,
+        #64b3d9 50.05%,
+        #208ea2 59.74%,
+        #498ada 70.1%,
+        #5b73df 80.01%,
+        #897ed3 89.92%,
+        #cf5caf 100%
+    );
+    --gradient-top-parlay: linear-gradient(
+        63.43deg,
+        #6fdff7d9 0%,
+        #62b2fbd9 100%
+    );
+    --gradient-white-down: linear-gradient(
+        0deg,
+        #ffffff00 0%,
+        #ffffff04 9.22%,
+        #ffffff0e 18.76%,
+        #ffffff1e 28.48%,
+        #ffffff33 38.19%,
+        #ffffff4a 47.75%,
+        #ffffff64 56.99%,
+        #ffffff80 65.75%,
+        #ffffff9b 73.87%,
+        #ffffffb5 81.18%,
+        #ffffffcc 87.52%,
+        #ffffffe1 92.74%,
+        #fffffff1 96.66%,
+        #fffffffb 99.14%,
+        #ffffff 100%
+    );
+    --gradient-white-up: linear-gradient(
+        180deg,
+        #ffffff00 0%,
+        #ffffff04 9.22%,
+        #ffffff0e 18.76%,
+        #ffffff1e 28.48%,
+        #ffffff33 38.19%,
+        #ffffff4a 47.75%,
+        #ffffff64 56.99%,
+        #ffffff80 65.75%,
+        #ffffff9b 73.87%,
+        #ffffffb5 81.18%,
+        #ffffffcc 87.52%,
+        #ffffffe1 92.74%,
+        #fffffff1 96.66%,
+        #fffffffb 99.14%,
+        #ffffff 100%
+    );
+    --advanced-sidebar-control-primary: linear-gradient(
+        63.43deg,
+        #fc8200 0%,
+        #fca701 100%
+    );
+    --advanced-sidebar-control-primary-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --control-primary: linear-gradient(63.43deg, #fc8200 0%, #fca701 100%);
+    --control-primary-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --header-main-button-primary-background-default: linear-gradient(
+        63.43deg,
+        #fc8200 0%,
+        #fca701 100%
+    );
+    --header-main-button-primary-background-default-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --header-secondary-button-primary-background-default: linear-gradient(
+        63.43deg,
+        #fc8200 0%,
+        #fca701 100%
+    );
+    --header-secondary-button-primary-background-default-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --menu-control-primary: linear-gradient(63.43deg, #fc8200 0%, #fca701 100%);
+    --menu-control-primary-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --outcome-background-selected: linear-gradient(
+        63.43deg,
+        #fc8200 0%,
+        #fca701 100%
+    );
+    --outcome-background-selected-hover: linear-gradient(
+        63.43deg,
+        #fc9700 0%,
+        #fcc101 100%
+    );
+    --page-top: 12px;
+    --page-left: 40px;
+    --page-right: 40px;
+    --page-bottom: 40px;
+    --widget-top: 0px;
+    --page-gap: 12px;
+    --widget-left: 0px;
+    --widget-right: 0px;
+    --widget-bottom: 0px;
+    --widget-gap: 8px;
+    --section-heading-top: 8px;
+    --section-heading-left: 0px;
+    --section-heading-right: 0px;
+    --section-heading-bottom: 8px;
+    --section-heading-gap: 4px;
+    --sidebar-top: 12px;
+    --sidebar-left: 12px;
+    --sidebar-right: 12px;
+    --sidebar-bottom: 12px;
+    --sidebar-gap: 12px;
+    --outcome-regular-container-gap: 8px;
+    --outcome-regular-button-gap: 0px;
+    --outcome-medium-container-gap: 4px;
+    --outcome-medium-button-gap: 0px;
+    --outcome-asia-container-gap: 4px;
+    --outcome-asia-button-gap: 0px;
+    --field-regular-container-gap: 8px;
+    --field-regular-input-gap: 2px;
+    --field-regular-input-top: 8px;
+    --field-regular-input-left: 16px;
+    --field-regular-input-right: 16px;
+    --field-regular-input-bottom: 8px;
+    --field-extra-container-gap: 8px;
+    --field-extra-input-gap: 2px;
+    --field-extra-input-top: 8px;
+    --field-extra-input-left: 16px;
+    --field-extra-input-right: 16px;
+    --field-extra-input-bottom: 8px;
+    --indent-lg: 20px;
+    --indent-md: 16px;
+    --indent-sm: 12px;
+    --indent-xl: 24px;
+    --indent-xs: 8px;
+    --indent-xxl: 28px;
+    --indent-xxs: 6px;
+    --indent-xxxl: 32px;
+    --indent-xxxs: 4px;
+    --indent-xxxxl: 36px;
+    --indent-xxxxs: 2px;
+    --indent-xxxxxl: 40px;
+    --indent-xxxxxs: 0px;
+    --radius-advanced-badge-low: 8px;
+    --radius-advanced-badge-regular: 10px;
+    --radius-advanced-button-low: 16px;
+    --radius-advanced-button-medium: 16px;
+    --radius-advanced-button-regular: 16px;
+    --radius-advanced-checkbox-default: 4px;
+    --radius-advanced-checkbox-default-hover: 4px;
+    --radius-advanced-checkbox-selected: 4px;
+    --radius-advanced-checkbox-selected-hover: 4px;
+    --radius-advanced-chips-default: 16px;
+    --radius-advanced-chips-selected: 16px;
+    --radius-advanced-counter-default: 8px;
+    --radius-advanced-counter-dot: 4px;
+    --radius-advanced-field-extra-default: 16px;
+    --radius-advanced-field-extra-default-hover: 16px;
+    --radius-advanced-field-extra-focused: 12px;
+    --radius-advanced-field-regular-default: 16px;
+    --radius-advanced-field-regular-default-hover: 16px;
+    --radius-advanced-field-regular-focused: 16px;
+    --radius-advanced-menu-container: 0px;
+    --radius-advanced-menu-item: 20px;
+    --radius-advanced-outcome-asia-inner: 4px;
+    --radius-advanced-outcome-asia-outer: 16px;
+    --radius-advanced-outcome-medium-inner: 4px;
+    --radius-advanced-outcome-medium-outer: 16px;
+    --radius-advanced-outcome-regular-inner: 4px;
+    --radius-advanced-outcome-regular-outer: 16px;
+    --radius-advanced-radio-default: 9px;
+    --radius-advanced-radio-selected: 9px;
+    --radius-advanced-segment-default: 19px;
+    --radius-advanced-segment-selected: 19px;
+    --radius-advanced-sport-filter-item-default: 20px;
+    --radius-advanced-sport-filter-item-selected: 20px;
+    --radius-advanced-tabs-default: 16px;
+    --radius-advanced-tabs-selected: 16px;
+    --radius-advanced-toggle-default: 10px;
+    --radius-advanced-toggle-default-hover: 10px;
+    --radius-advanced-toggle-knob-default: 7px;
+    --radius-advanced-toggle-knob-default-hover: 8px;
+    --radius-advanced-toggle-knob-selected: 7px;
+    --radius-advanced-toggle-knob-selected-hover: 8px;
+    --radius-advanced-toggle-selected: 10px;
+    --radius-advanced-toggle-selected-hover: 10px;
+    --radius-lg: 20px;
+    --radius-md: 16px;
+    --radius-sm: 12px;
+    --radius-xl: 20px;
+    --radius-xs: 8px;
+    --radius-xxl: 24px;
+    --radius-xxs: 4px;
+    --radius-xxxl: 100px;
+    --radius-xxxs: 0px;
+    --stroke-button-deposit-default: 0px;
+    --stroke-button-deposit-hover: 0px;
+    --stroke-button-disabled-default: 0px;
+    --stroke-button-primary-default: 0px;
+    --stroke-button-primary-hover: 0px;
+    --stroke-button-secondary-default: 0px;
+    --stroke-button-secondary-hover: 0px;
+    --stroke-button-tertiary-default: 0.5px;
+    --stroke-button-tertiary-hover: 0.5px;
+    --stroke-checkbox-default: 2px;
+    --stroke-checkbox-default-hover: 2px;
+    --stroke-checkbox-selected: 0px;
+    --stroke-checkbox-selected-hover: 0px;
+    --stroke-chips-default: 1px;
+    --stroke-chips-selected: 1px;
+    --stroke-field-extra-default: 2px;
+    --stroke-field-extra-default-hover: 2px;
+    --stroke-field-extra-focused: 2px;
+    --stroke-field-regular-default: 1px;
+    --stroke-field-regular-default-hover: 1px;
+    --stroke-field-regular-focused: 1px;
+    --stroke-menu-container-default: 0px;
+    --stroke-menu-container-default-hover: 0px;
+    --stroke-menu-item-default: 0px;
+    --stroke-menu-item-default-hover: 0px;
+    --stroke-outcome-default: 0px;
+    --stroke-outcome-default-hover: 0px;
+    --stroke-outcome-selected: 2px;
+    --stroke-outcome-selected-hover: 0px;
+    --stroke-radio-default: 2px;
+    --stroke-radio-default-hover: 2px;
+    --stroke-radio-selected: 6px;
+    --stroke-radio-selected-hover: 6px;
+    --stroke-segment-default: 0px;
+    --stroke-segment-default-hover: 0px;
+    --stroke-segment-selected: 0px;
+    --stroke-sport-filter-item-default: 0px;
+    --stroke-sport-filter-item-default-hover: 1px;
+    --stroke-sport-filter-item-selected: 0px;
+    --stroke-sport-filter-item-selected-hover: 1px;
+    --stroke-tabs-default: 1px;
+    --stroke-tabs-selected: 1px;
+    --stroke-toggle-default: 0px;
+    --stroke-toggle-default-hover: 0px;
+    --stroke-toggle-knob-default: 0px;
+    --stroke-toggle-knob-default-hover: 0px;
+    --stroke-toggle-knob-selected: 0px;
+    --stroke-toggle-knob-selected-hover: 0px;
+    --stroke-toggle-selected: 0px;
+    --stroke-toggle-selected-hover: 0px;
+    --size-0: 0px;
+    --size-2: 2px;
+    --size-4: 4px;
+    --size-6: 6px;
+    --size-8: 8px;
+    --size-10: 10px;
+    --size-12: 12px;
+    --size-14: 14px;
+    --size-16: 16px;
+    --size-18: 18px;
+    --size-20: 20px;
+    --size-22: 22px;
+    --size-24: 24px;
+    --size-26: 26px;
+    --size-28: 28px;
+    --size-30: 30px;
+    --size-32: 32px;
+    --size-34: 34px;
+    --size-36: 36px;
+    --size-38: 38px;
+    --size-40: 40px;
+    --size-42: 42px;
+    --size-44: 44px;
+    --size-46: 46px;
+    --size-48: 48px;
+    --size-50: 50px;
+    --size-52: 52px;
+    --size-54: 54px;
+    --size-56: 56px;
+    --size-58: 58px;
+    --size-60: 60px;
+    --size-62: 62px;
+    --size-64: 64px;
+    --size-66: 66px;
+    --size-68: 68px;
+    --size-70: 70px;
+    --size-72: 72px;
+    --size-74: 74px;
+    --size-76: 76px;
+    --size-78: 78px;
+    --size-80: 80px;
+    --size-82: 82px;
+    --size-84: 84px;
+    --size-86: 86px;
+    --size-88: 88px;
+    --size-90: 90px;
+    --size-92: 92px;
+    --size-94: 94px;
+    --size-96: 96px;
+    --size-98: 98px;
+    --size-100: 100px;
+    --size-104: 104px;
+    --size-116: 116px;
+    --size-128: 128px;
+    --size-152: 152px;
+    --size-160: 160px;
+    --size-180: 180px;
+    --size-190: 190px;
+    --size-200: 200px;
+    --size-256: 256px;
+    --size-280: 280px;
+    --size-320: 320px;
+    --size-328: 328px;
+    --size-392: 392px;
+    --size-404: 404px;
+    --size-424: 424px;
+    --size-676: 674px;
+    --advanced-button-low-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-button-low-title-font-size: 14px;
+    --advanced-button-low-title-font-style: SemiBold;
+    --advanced-button-low-title-letter-spacing: 0.5px;
+    --advanced-button-low-title-line-height: 18px;
+    --advanced-button-low-title-paragraph-indent: 0px;
+    --advanced-button-low-title-paragraph-spacing: 0px;
+    --advanced-button-low-title-text-transform: ORIGINAL;
+    --advanced-button-medium-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-button-medium-subtitle-font-size: 12px;
+    --advanced-button-medium-subtitle-font-style: Regular;
+    --advanced-button-medium-subtitle-letter-spacing: 0.5px;
+    --advanced-button-medium-subtitle-line-height: 16px;
+    --advanced-button-medium-subtitle-paragraph-indent: 0px;
+    --advanced-button-medium-subtitle-paragraph-spacing: 0px;
+    --advanced-button-medium-subtitle-text-transform: ORIGINAL;
+    --advanced-button-medium-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-button-medium-title-font-size: 16px;
+    --advanced-button-medium-title-font-style: SemiBold;
+    --advanced-button-medium-title-letter-spacing: 0.5px;
+    --advanced-button-medium-title-line-height: 20px;
+    --advanced-button-medium-title-paragraph-indent: 0px;
+    --advanced-button-medium-title-paragraph-spacing: 0px;
+    --advanced-button-medium-title-text-transform: ORIGINAL;
+    --advanced-button-regular-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-button-regular-subtitle-font-size: 12px;
+    --advanced-button-regular-subtitle-font-style: Regular;
+    --advanced-button-regular-subtitle-letter-spacing: 0.5px;
+    --advanced-button-regular-subtitle-line-height: 16px;
+    --advanced-button-regular-subtitle-paragraph-indent: 0px;
+    --advanced-button-regular-subtitle-paragraph-spacing: 0px;
+    --advanced-button-regular-subtitle-text-transform: ORIGINAL;
+    --advanced-button-regular-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-button-regular-title-font-size: 16px;
+    --advanced-button-regular-title-font-style: SemiBold;
+    --advanced-button-regular-title-letter-spacing: 0.5px;
+    --advanced-button-regular-title-line-height: 20px;
+    --advanced-button-regular-title-paragraph-indent: 0px;
+    --advanced-button-regular-title-paragraph-spacing: 0px;
+    --advanced-button-regular-title-text-transform: ORIGINAL;
+    --advanced-chips-default-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-chips-default-font-size: 14px;
+    --advanced-chips-default-font-style: Regular;
+    --advanced-chips-default-letter-spacing: 0.1px;
+    --advanced-chips-default-line-height: 18px;
+    --advanced-chips-default-paragraph-indent: 0px;
+    --advanced-chips-default-paragraph-spacing: 0px;
+    --advanced-chips-default-text-transform: ORIGINAL;
+    --advanced-chips-selected-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-chips-selected-font-size: 14px;
+    --advanced-chips-selected-font-style: Regular;
+    --advanced-chips-selected-letter-spacing: 0.1px;
+    --advanced-chips-selected-line-height: 18px;
+    --advanced-chips-selected-paragraph-indent: 0px;
+    --advanced-chips-selected-paragraph-spacing: 0px;
+    --advanced-chips-selected-text-transform: ORIGINAL;
+    --advanced-field-extra-hint-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-extra-hint-font-size: 12px;
+    --advanced-field-extra-hint-font-style: Regular;
+    --advanced-field-extra-hint-letter-spacing: 0.4px;
+    --advanced-field-extra-hint-line-height: 16px;
+    --advanced-field-extra-hint-paragraph-indent: 0px;
+    --advanced-field-extra-hint-paragraph-spacing: 8px;
+    --advanced-field-extra-hint-text-transform: ORIGINAL;
+    --advanced-field-extra-label-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-extra-label-font-size: 12px;
+    --advanced-field-extra-label-font-style: Regular;
+    --advanced-field-extra-label-letter-spacing: 0.4px;
+    --advanced-field-extra-label-line-height: 16px;
+    --advanced-field-extra-label-paragraph-indent: 0px;
+    --advanced-field-extra-label-paragraph-spacing: 8px;
+    --advanced-field-extra-label-text-transform: ORIGINAL;
+    --advanced-field-extra-placeholder-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-extra-placeholder-font-size: 16px;
+    --advanced-field-extra-placeholder-font-style: Regular;
+    --advanced-field-extra-placeholder-letter-spacing: 0.5px;
+    --advanced-field-extra-placeholder-line-height: 20px;
+    --advanced-field-extra-placeholder-paragraph-indent: 0px;
+    --advanced-field-extra-placeholder-paragraph-spacing: 8px;
+    --advanced-field-extra-placeholder-text-transform: ORIGINAL;
+    --advanced-field-extra-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-extra-title-font-size: 16px;
+    --advanced-field-extra-title-font-style: Regular;
+    --advanced-field-extra-title-letter-spacing: 0.5px;
+    --advanced-field-extra-title-line-height: 20px;
+    --advanced-field-extra-title-paragraph-indent: 0px;
+    --advanced-field-extra-title-paragraph-spacing: 8px;
+    --advanced-field-extra-title-text-transform: ORIGINAL;
+    --advanced-field-regular-hint-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-regular-hint-font-size: 12px;
+    --advanced-field-regular-hint-font-style: Regular;
+    --advanced-field-regular-hint-letter-spacing: 0.4px;
+    --advanced-field-regular-hint-line-height: 16px;
+    --advanced-field-regular-hint-paragraph-indent: 0px;
+    --advanced-field-regular-hint-paragraph-spacing: 8px;
+    --advanced-field-regular-hint-text-transform: ORIGINAL;
+    --advanced-field-regular-label-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-regular-label-font-size: 12px;
+    --advanced-field-regular-label-font-style: Regular;
+    --advanced-field-regular-label-letter-spacing: 0.4px;
+    --advanced-field-regular-label-line-height: 16px;
+    --advanced-field-regular-label-paragraph-indent: 0px;
+    --advanced-field-regular-label-paragraph-spacing: 8px;
+    --advanced-field-regular-label-text-transform: ORIGINAL;
+    --advanced-field-regular-placeholder-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-regular-placeholder-font-size: 16px;
+    --advanced-field-regular-placeholder-font-style: Regular;
+    --advanced-field-regular-placeholder-letter-spacing: 0.5px;
+    --advanced-field-regular-placeholder-line-height: 20px;
+    --advanced-field-regular-placeholder-paragraph-indent: 0px;
+    --advanced-field-regular-placeholder-paragraph-spacing: 8px;
+    --advanced-field-regular-placeholder-text-transform: ORIGINAL;
+    --advanced-field-regular-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-field-regular-title-font-size: 16px;
+    --advanced-field-regular-title-font-style: Regular;
+    --advanced-field-regular-title-letter-spacing: 0.5px;
+    --advanced-field-regular-title-line-height: 20px;
+    --advanced-field-regular-title-paragraph-indent: 0px;
+    --advanced-field-regular-title-paragraph-spacing: 8px;
+    --advanced-field-regular-title-text-transform: ORIGINAL;
+    --advanced-header-large-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-header-large-title-font-size: 24px;
+    --advanced-header-large-title-font-style: SemiBold;
+    --advanced-header-large-title-letter-spacing: 0px;
+    --advanced-header-large-title-line-height: 30px;
+    --advanced-header-large-title-paragraph-indent: 0px;
+    --advanced-header-large-title-paragraph-spacing: 8px;
+    --advanced-header-large-title-text-transform: ORIGINAL;
+    --advanced-header-link-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-header-link-font-size: 16px;
+    --advanced-header-link-font-style: SemiBold;
+    --advanced-header-link-letter-spacing: 0px;
+    --advanced-header-link-line-height: 20px;
+    --advanced-header-link-paragraph-indent: 0px;
+    --advanced-header-link-paragraph-spacing: 8px;
+    --advanced-header-link-text-transform: ORIGINAL;
+    --advanced-header-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-header-subtitle-font-size: 12px;
+    --advanced-header-subtitle-font-style: Regular;
+    --advanced-header-subtitle-letter-spacing: 0px;
+    --advanced-header-subtitle-line-height: 16px;
+    --advanced-header-subtitle-paragraph-indent: 0px;
+    --advanced-header-subtitle-paragraph-spacing: 8px;
+    --advanced-header-subtitle-text-transform: ORIGINAL;
+    --advanced-header-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-header-title-font-size: 16px;
+    --advanced-header-title-font-style: Regular;
+    --advanced-header-title-letter-spacing: 0.1px;
+    --advanced-header-title-line-height: 18px;
+    --advanced-header-title-paragraph-indent: 0px;
+    --advanced-header-title-paragraph-spacing: 0px;
+    --advanced-header-title-text-transform: ORIGINAL;
+    --advanced-outcome-asia-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-asia-subtitle-font-size: 9px;
+    --advanced-outcome-asia-subtitle-font-style: SemiBold;
+    --advanced-outcome-asia-subtitle-letter-spacing: 0.4px;
+    --advanced-outcome-asia-subtitle-line-height: 12px;
+    --advanced-outcome-asia-subtitle-paragraph-indent: 0px;
+    --advanced-outcome-asia-subtitle-paragraph-spacing: 8px;
+    --advanced-outcome-asia-subtitle-text-transform: UPPER;
+    --advanced-outcome-asia-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-asia-title-font-size: 12px;
+    --advanced-outcome-asia-title-font-style: Medium;
+    --advanced-outcome-asia-title-letter-spacing: 0px;
+    --advanced-outcome-asia-title-line-height: 16px;
+    --advanced-outcome-asia-title-paragraph-indent: 0px;
+    --advanced-outcome-asia-title-paragraph-spacing: 8px;
+    --advanced-outcome-asia-title-text-transform: ORIGINAL;
+    --advanced-outcome-medium-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-medium-subtitle-font-size: 9px;
+    --advanced-outcome-medium-subtitle-font-style: SemiBold;
+    --advanced-outcome-medium-subtitle-letter-spacing: 0.4px;
+    --advanced-outcome-medium-subtitle-line-height: 12px;
+    --advanced-outcome-medium-subtitle-paragraph-indent: 0px;
+    --advanced-outcome-medium-subtitle-paragraph-spacing: 8px;
+    --advanced-outcome-medium-subtitle-text-transform: UPPER;
+    --advanced-outcome-medium-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-medium-title-font-size: 14px;
+    --advanced-outcome-medium-title-font-style: Medium;
+    --advanced-outcome-medium-title-letter-spacing: 0px;
+    --advanced-outcome-medium-title-line-height: 18px;
+    --advanced-outcome-medium-title-paragraph-indent: 0px;
+    --advanced-outcome-medium-title-paragraph-spacing: 8px;
+    --advanced-outcome-medium-title-text-transform: ORIGINAL;
+    --advanced-outcome-regular-subtitle-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-regular-subtitle-font-size: 10px;
+    --advanced-outcome-regular-subtitle-font-style: SemiBold;
+    --advanced-outcome-regular-subtitle-letter-spacing: 0.4px;
+    --advanced-outcome-regular-subtitle-line-height: 14px;
+    --advanced-outcome-regular-subtitle-paragraph-indent: 0px;
+    --advanced-outcome-regular-subtitle-paragraph-spacing: 8px;
+    --advanced-outcome-regular-subtitle-text-transform: UPPER;
+    --advanced-outcome-regular-title-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-outcome-regular-title-font-size: 16px;
+    --advanced-outcome-regular-title-font-style: Medium;
+    --advanced-outcome-regular-title-letter-spacing: 0px;
+    --advanced-outcome-regular-title-line-height: 20px;
+    --advanced-outcome-regular-title-paragraph-indent: 0px;
+    --advanced-outcome-regular-title-paragraph-spacing: 8px;
+    --advanced-outcome-regular-title-text-transform: ORIGINAL;
+    --advanced-segment-default-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-segment-default-font-size: 14px;
+    --advanced-segment-default-font-style: Regular;
+    --advanced-segment-default-letter-spacing: 0px;
+    --advanced-segment-default-line-height: 18px;
+    --advanced-segment-default-paragraph-indent: 0px;
+    --advanced-segment-default-paragraph-spacing: 0px;
+    --advanced-segment-default-text-transform: ORIGINAL;
+    --advanced-segment-selected-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-segment-selected-font-size: 14px;
+    --advanced-segment-selected-font-style: Medium;
+    --advanced-segment-selected-letter-spacing: 0px;
+    --advanced-segment-selected-line-height: 18px;
+    --advanced-segment-selected-paragraph-indent: 0px;
+    --advanced-segment-selected-paragraph-spacing: 0px;
+    --advanced-segment-selected-text-transform: ORIGINAL;
+    --advanced-sport-filter-default-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-sport-filter-default-font-size: 12px;
+    --advanced-sport-filter-default-font-style: Regular;
+    --advanced-sport-filter-default-letter-spacing: -0.32px;
+    --advanced-sport-filter-default-line-height: 16px;
+    --advanced-sport-filter-default-paragraph-indent: 0px;
+    --advanced-sport-filter-default-paragraph-spacing: 8px;
+    --advanced-sport-filter-default-text-transform: ORIGINAL;
+    --advanced-sport-filter-label-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-sport-filter-label-font-size: 10px;
+    --advanced-sport-filter-label-font-style: SemiBold;
+    --advanced-sport-filter-label-letter-spacing: 0.12px;
+    --advanced-sport-filter-label-line-height: 10px;
+    --advanced-sport-filter-label-paragraph-indent: 0px;
+    --advanced-sport-filter-label-paragraph-spacing: 0px;
+    --advanced-sport-filter-label-text-transform: UPPER;
+    --advanced-sport-filter-selected-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-sport-filter-selected-font-size: 12px;
+    --advanced-sport-filter-selected-font-style: Regular;
+    --advanced-sport-filter-selected-letter-spacing: -0.32px;
+    --advanced-sport-filter-selected-line-height: 16px;
+    --advanced-sport-filter-selected-paragraph-indent: 0px;
+    --advanced-sport-filter-selected-paragraph-spacing: 8px;
+    --advanced-sport-filter-selected-text-transform: ORIGINAL;
+    --advanced-tabs-default-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-tabs-default-font-size: 14px;
+    --advanced-tabs-default-font-style: Regular;
+    --advanced-tabs-default-letter-spacing: 0px;
+    --advanced-tabs-default-line-height: 18px;
+    --advanced-tabs-default-paragraph-indent: 0px;
+    --advanced-tabs-default-paragraph-spacing: 0px;
+    --advanced-tabs-default-text-transform: ORIGINAL;
+    --advanced-tabs-selected-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --advanced-tabs-selected-font-size: 14px;
+    --advanced-tabs-selected-font-style: Regular;
+    --advanced-tabs-selected-letter-spacing: 0px;
+    --advanced-tabs-selected-line-height: 18px;
+    --advanced-tabs-selected-paragraph-indent: 0px;
+    --advanced-tabs-selected-paragraph-spacing: 0px;
+    --advanced-tabs-selected-text-transform: ORIGINAL;
+    --body-heavy-font-family:
+        Unbounded, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --body-heavy-font-size: 14px;
+    --body-heavy-font-style: ExtraBold;
+    --body-heavy-letter-spacing: 0px;
+    --body-heavy-line-height: 18px;
+    --body-heavy-paragraph-indent: 0px;
+    --body-heavy-paragraph-spacing: 8px;
+    --body-heavy-text-transform: UPPER;
+    --body-regular-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --body-regular-font-size: 16px;
+    --body-regular-font-style: Regular;
+    --body-regular-letter-spacing: 0.5px;
+    --body-regular-line-height: 20px;
+    --body-regular-paragraph-indent: 0px;
+    --body-regular-paragraph-spacing: 8px;
+    --body-regular-text-transform: ORIGINAL;
+    --body-rounded-medium-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --body-rounded-medium-font-size: 16px;
+    --body-rounded-medium-font-style: Medium;
+    --body-rounded-medium-letter-spacing: 0.5px;
+    --body-rounded-medium-line-height: 20px;
+    --body-rounded-medium-paragraph-indent: 0px;
+    --body-rounded-medium-paragraph-spacing: 8px;
+    --body-rounded-medium-text-transform: ORIGINAL;
+    --body-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --body-semibold-font-size: 16px;
+    --body-semibold-font-style: SemiBold;
+    --body-semibold-letter-spacing: 0.5px;
+    --body-semibold-line-height: 20px;
+    --body-semibold-paragraph-indent: 0px;
+    --body-semibold-paragraph-spacing: 8px;
+    --body-semibold-text-transform: ORIGINAL;
+    --caption-1-bold-caps-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-1-bold-caps-font-size: 12px;
+    --caption-1-bold-caps-font-style: Bold;
+    --caption-1-bold-caps-letter-spacing: 0.5px;
+    --caption-1-bold-caps-line-height: 16px;
+    --caption-1-bold-caps-paragraph-indent: 0px;
+    --caption-1-bold-caps-paragraph-spacing: 8px;
+    --caption-1-bold-caps-text-transform: UPPER;
+    --caption-1-medium-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-1-medium-font-size: 12px;
+    --caption-1-medium-font-style: Medium;
+    --caption-1-medium-letter-spacing: 0.4px;
+    --caption-1-medium-line-height: 16px;
+    --caption-1-medium-paragraph-indent: 0px;
+    --caption-1-medium-paragraph-spacing: 8px;
+    --caption-1-medium-text-transform: ORIGINAL;
+    --caption-1-regular-caps-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-1-regular-caps-font-size: 12px;
+    --caption-1-regular-caps-font-style: Regular;
+    --caption-1-regular-caps-letter-spacing: 0.4px;
+    --caption-1-regular-caps-line-height: 16px;
+    --caption-1-regular-caps-paragraph-indent: 0px;
+    --caption-1-regular-caps-paragraph-spacing: 8px;
+    --caption-1-regular-caps-text-transform: UPPER;
+    --caption-1-regular-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-1-regular-font-size: 12px;
+    --caption-1-regular-font-style: Regular;
+    --caption-1-regular-letter-spacing: 0.4px;
+    --caption-1-regular-line-height: 16px;
+    --caption-1-regular-paragraph-indent: 0px;
+    --caption-1-regular-paragraph-spacing: 8px;
+    --caption-1-regular-text-transform: ORIGINAL;
+    --caption-2-medium-caps-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-2-medium-caps-font-size: 10px;
+    --caption-2-medium-caps-font-style: SemiBold;
+    --caption-2-medium-caps-letter-spacing: 0.5px;
+    --caption-2-medium-caps-line-height: 14px;
+    --caption-2-medium-caps-paragraph-indent: 0px;
+    --caption-2-medium-caps-paragraph-spacing: 8px;
+    --caption-2-medium-caps-text-transform: UPPER;
+    --caption-2-medium-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-2-medium-font-size: 10px;
+    --caption-2-medium-font-style: Medium;
+    --caption-2-medium-letter-spacing: 0.3px;
+    --caption-2-medium-line-height: 14px;
+    --caption-2-medium-paragraph-indent: 0px;
+    --caption-2-medium-paragraph-spacing: 8px;
+    --caption-2-medium-text-transform: ORIGINAL;
+    --caption-3-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --caption-3-semibold-font-size: 9px;
+    --caption-3-semibold-font-style: SemiBold;
+    --caption-3-semibold-letter-spacing: 0px;
+    --caption-3-semibold-line-height: 12px;
+    --caption-3-semibold-paragraph-indent: 0px;
+    --caption-3-semibold-paragraph-spacing: 8px;
+    --caption-3-semibold-text-transform: ORIGINAL;
+    --large-title-1-bold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --large-title-1-bold-font-size: 48px;
+    --large-title-1-bold-font-style: Bold;
+    --large-title-1-bold-letter-spacing: 0px;
+    --large-title-1-bold-line-height: 56px;
+    --large-title-1-bold-paragraph-indent: 0px;
+    --large-title-1-bold-paragraph-spacing: 8px;
+    --large-title-1-bold-text-transform: ORIGINAL;
+    --large-title-1-heavy-font-family:
+        Unbounded, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --large-title-1-heavy-font-size: 48px;
+    --large-title-1-heavy-font-style: ExtraBold;
+    --large-title-1-heavy-letter-spacing: 0.96px;
+    --large-title-1-heavy-line-height: 52px;
+    --large-title-1-heavy-paragraph-indent: 0px;
+    --large-title-1-heavy-paragraph-spacing: 8px;
+    --large-title-1-heavy-text-transform: UPPER;
+    --large-title-3-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --large-title-3-semibold-font-size: 32px;
+    --large-title-3-semibold-font-style: SemiBold;
+    --large-title-3-semibold-letter-spacing: 0.4px;
+    --large-title-3-semibold-line-height: 40px;
+    --large-title-3-semibold-paragraph-indent: 0px;
+    --large-title-3-semibold-paragraph-spacing: 8px;
+    --large-title-3-semibold-text-transform: ORIGINAL;
+    --large-title-heavy-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --large-title-heavy-font-size: 36px;
+    --large-title-heavy-font-style: Bold;
+    --large-title-heavy-letter-spacing: 0px;
+    --large-title-heavy-line-height: 44px;
+    --large-title-heavy-paragraph-indent: 0px;
+    --large-title-heavy-paragraph-spacing: 8px;
+    --large-title-heavy-text-transform: ORIGINAL;
+    --large-title-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --large-title-semibold-font-size: 36px;
+    --large-title-semibold-font-style: SemiBold;
+    --large-title-semibold-letter-spacing: 0px;
+    --large-title-semibold-line-height: 44px;
+    --large-title-semibold-paragraph-indent: 0px;
+    --large-title-semibold-paragraph-spacing: 8px;
+    --large-title-semibold-text-transform: ORIGINAL;
+    --subhead-regular-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --subhead-regular-font-size: 14px;
+    --subhead-regular-font-style: Regular;
+    --subhead-regular-letter-spacing: 0.5px;
+    --subhead-regular-line-height: 18px;
+    --subhead-regular-paragraph-indent: 0px;
+    --subhead-regular-paragraph-spacing: 8px;
+    --subhead-regular-text-transform: ORIGINAL;
+    --subhead-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --subhead-semibold-font-size: 14px;
+    --subhead-semibold-font-style: SemiBold;
+    --subhead-semibold-letter-spacing: 0.5px;
+    --subhead-semibold-line-height: 18px;
+    --subhead-semibold-paragraph-indent: 0px;
+    --subhead-semibold-paragraph-spacing: 8px;
+    --subhead-semibold-text-transform: ORIGINAL;
+    --title-1-bold-font-family:
+        Unbounded, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-1-bold-font-size: 26px;
+    --title-1-bold-font-style: ExtraBold;
+    --title-1-bold-letter-spacing: 0.2px;
+    --title-1-bold-line-height: 28px;
+    --title-1-bold-paragraph-indent: 0px;
+    --title-1-bold-paragraph-spacing: 8px;
+    --title-1-bold-text-transform: UPPER;
+    --title-1-regular-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-1-regular-font-size: 24px;
+    --title-1-regular-font-style: Regular;
+    --title-1-regular-letter-spacing: 0.5px;
+    --title-1-regular-line-height: 32px;
+    --title-1-regular-paragraph-indent: 0px;
+    --title-1-regular-paragraph-spacing: 8px;
+    --title-1-regular-text-transform: ORIGINAL;
+    --title-1-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-1-semibold-font-size: 24px;
+    --title-1-semibold-font-style: SemiBold;
+    --title-1-semibold-letter-spacing: 0.5px;
+    --title-1-semibold-line-height: 30px;
+    --title-1-semibold-paragraph-indent: 0px;
+    --title-1-semibold-paragraph-spacing: 8px;
+    --title-1-semibold-text-transform: ORIGINAL;
+    --title-2-bold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-2-bold-font-size: 20px;
+    --title-2-bold-font-style: Semibold;
+    --title-2-bold-letter-spacing: 0px;
+    --title-2-bold-line-height: 24px;
+    --title-2-bold-paragraph-indent: 0px;
+    --title-2-bold-paragraph-spacing: 10px;
+    --title-2-bold-text-transform: ORIGINAL;
+    --title-2-heavy-font-family:
+        Unbounded, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-2-heavy-font-size: 20px;
+    --title-2-heavy-font-style: ExtraBold;
+    --title-2-heavy-letter-spacing: 0.2px;
+    --title-2-heavy-line-height: 22px;
+    --title-2-heavy-paragraph-indent: 0px;
+    --title-2-heavy-paragraph-spacing: 8px;
+    --title-2-heavy-text-transform: UPPER;
+    --title-2-regular-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-2-regular-font-size: 18px;
+    --title-2-regular-font-style: Regular;
+    --title-2-regular-letter-spacing: 0.5px;
+    --title-2-regular-line-height: 22px;
+    --title-2-regular-paragraph-indent: 0px;
+    --title-2-regular-paragraph-spacing: 8px;
+    --title-2-regular-text-transform: ORIGINAL;
+    --title-2-semibold-font-family:
+        Onest, -apple-system, "BlinkMacSystemFont", "Roboto", "Segoe UI",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Arial",
+        sans-serif;
+    --title-2-semibold-font-size: 18px;
+    --title-2-semibold-font-style: SemiBold;
+    --title-2-semibold-letter-spacing: 0.5px;
+    --title-2-semibold-line-height: 22px;
+    --title-2-semibold-paragraph-indent: 0px;
+    --title-2-semibold-paragraph-spacing: 8px;
+    --title-2-semibold-text-transform: ORIGINAL;
+    --height-field-extra: 56px;
+    --height-field-regular: 56px;
+    --height-field-text-view: 98px;
+}
+@media (max-width: 1279px) {
+    :root {
+        --page-top: 12px;
+        --page-left: 0px;
+        --page-right: 0px;
+        --page-bottom: 56px;
+        --widget-top: 0px;
+        --page-gap: 12px;
+        --widget-left: 12px;
+        --widget-right: 12px;
+        --widget-bottom: 0px;
+        --widget-gap: 8px;
+        --section-heading-top: 8px;
+        --section-heading-left: 12px;
+        --section-heading-right: 12px;
+        --section-heading-bottom: 8px;
+        --section-heading-gap: 4px;
+        --sidebar-top: 12px;
+        --sidebar-left: 12px;
+        --sidebar-right: 12px;
+        --sidebar-bottom: 12px;
+        --sidebar-gap: 12px;
+        --outcome-regular-container-gap: 8px;
+        --outcome-regular-button-gap: 0px;
+        --outcome-medium-container-gap: 4px;
+        --outcome-medium-button-gap: 0px;
+        --outcome-asia-container-gap: 4px;
+        --outcome-asia-button-gap: 0px;
+        --field-regular-container-gap: 8px;
+        --field-regular-input-gap: 2px;
+        --field-regular-input-top: 8px;
+        --field-regular-input-left: 16px;
+        --field-regular-input-right: 16px;
+        --field-regular-input-bottom: 8px;
+        --field-extra-container-gap: 8px;
+        --field-extra-input-gap: 2px;
+        --field-extra-input-top: 8px;
+        --field-extra-input-left: 16px;
+        --field-extra-input-right: 16px;
+        --field-extra-input-bottom: 8px;
+    }
+}
+[data-density="compact"] {
+    --size-0: 0px;
+    --size-2: 2px;
+    --size-4: 2px;
+    --size-6: 4px;
+    --size-8: 6px;
+    --size-10: 8px;
+    --size-12: 10px;
+    --size-14: 12px;
+    --size-16: 14px;
+    --size-18: 16px;
+    --size-20: 18px;
+    --size-22: 20px;
+    --size-24: 22px;
+    --size-26: 24px;
+    --size-28: 26px;
+    --size-30: 28px;
+    --size-32: 30px;
+    --size-34: 32px;
+    --size-36: 34px;
+    --size-38: 36px;
+    --size-40: 38px;
+    --size-42: 40px;
+    --size-44: 42px;
+    --size-46: 44px;
+    --size-48: 46px;
+    --size-50: 48px;
+    --size-52: 50px;
+    --size-54: 52px;
+    --size-56: 54px;
+    --size-58: 56px;
+    --size-60: 58px;
+    --size-62: 60px;
+    --size-64: 62px;
+    --size-66: 64px;
+    --size-68: 66px;
+    --size-70: 68px;
+    --size-72: 70px;
+    --size-74: 72px;
+    --size-76: 74px;
+    --size-78: 76px;
+    --size-80: 78px;
+    --size-82: 80px;
+    --size-84: 82px;
+    --size-86: 84px;
+    --size-88: 86px;
+    --size-90: 88px;
+    --size-92: 90px;
+    --size-94: 92px;
+    --size-96: 94px;
+    --size-98: 96px;
+    --size-100: 98px;
+    --size-104: 102px;
+    --size-116: 114px;
+    --size-128: 126px;
+    --size-152: 150px;
+    --size-160: 158px;
+    --size-180: 178px;
+    --size-190: 188px;
+    --size-200: 198px;
+    --size-256: 254px;
+    --size-280: 278px;
+    --size-320: 318px;
+    --size-328: 326px;
+    --size-392: 390px;
+    --size-404: 402px;
+    --size-424: 422px;
+    --size-676: 672px;
+}
+[data-density="small"] {
+    --size-0: 0px;
+    --size-2: 2px;
+    --size-4: 2px;
+    --size-6: 2px;
+    --size-8: 4px;
+    --size-10: 6px;
+    --size-12: 8px;
+    --size-14: 10px;
+    --size-16: 12px;
+    --size-18: 14px;
+    --size-20: 16px;
+    --size-22: 18px;
+    --size-24: 20px;
+    --size-26: 22px;
+    --size-28: 24px;
+    --size-30: 26px;
+    --size-32: 28px;
+    --size-34: 30px;
+    --size-36: 32px;
+    --size-38: 34px;
+    --size-40: 36px;
+    --size-42: 38px;
+    --size-44: 40px;
+    --size-46: 42px;
+    --size-48: 44px;
+    --size-50: 46px;
+    --size-52: 48px;
+    --size-54: 50px;
+    --size-56: 52px;
+    --size-58: 54px;
+    --size-60: 56px;
+    --size-62: 58px;
+    --size-64: 60px;
+    --size-66: 62px;
+    --size-68: 64px;
+    --size-70: 66px;
+    --size-72: 68px;
+    --size-74: 70px;
+    --size-76: 72px;
+    --size-78: 74px;
+    --size-80: 76px;
+    --size-82: 78px;
+    --size-84: 80px;
+    --size-86: 82px;
+    --size-88: 84px;
+    --size-90: 82px;
+    --size-92: 88px;
+    --size-94: 90px;
+    --size-96: 92px;
+    --size-98: 94px;
+    --size-100: 96px;
+    --size-104: 100px;
+    --size-116: 112px;
+    --size-128: 124px;
+    --size-152: 148px;
+    --size-160: 156px;
+    --size-180: 176px;
+    --size-190: 186px;
+    --size-200: 196px;
+    --size-256: 252px;
+    --size-280: 276px;
+    --size-320: 316px;
+    --size-328: 324px;
+    --size-392: 388px;
+    --size-404: 400px;
+    --size-424: 420px;
+    --size-676: 672px;
+}
+.advanced-button-low-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-button-medium-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-button-medium-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-button-regular-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-button-regular-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-chips-default {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-transform: none;
+}
+.advanced-chips-selected {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-transform: none;
+}
+.advanced-field-extra-hint {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.advanced-field-extra-label {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.advanced-field-extra-placeholder {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-field-extra-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-field-regular-hint {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.advanced-field-regular-label {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.advanced-field-regular-placeholder {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-field-regular-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.advanced-header-large-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-header-link {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-header-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-header-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-transform: none;
+}
+.advanced-outcome-asia-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.advanced-outcome-asia-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-outcome-medium-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.advanced-outcome-medium-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-outcome-regular-subtitle {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.advanced-outcome-regular-title {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-segment-default {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-segment-selected {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-sport-filter-default {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
+}
+.advanced-sport-filter-label {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+.advanced-sport-filter-selected {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
+}
+.advanced-tabs-default {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.advanced-tabs-selected {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.body-heavy {
+    font-family:
+        Unbounded,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+.body-regular {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.body-rounded-medium {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.body-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.caption-1-bold-caps {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.caption-1-medium {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.caption-1-regular {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.caption-1-regular-caps {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.caption-2-medium {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+    text-transform: none;
+}
+.caption-2-medium-caps {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.caption-3-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.large-title-1-bold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.large-title-1-heavy {
+    font-family:
+        Unbounded,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+.large-title-3-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+.large-title-heavy {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.large-title-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.subhead-regular {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.subhead-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.title-1-bold {
+    font-family:
+        Unbounded,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.title-1-regular {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.title-1-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.title-2-bold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.title-2-heavy {
+    font-family:
+        Unbounded,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.title-2-regular {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+.title-2-semibold {
+    font-family:
+        Onest,
+        -apple-system,
+        "BlinkMacSystemFont",
+        "Roboto",
+        "Segoe UI",
+        "Oxygen",
+        "Ubuntu",
+        "Cantarell",
+        "Open Sans",
+        "Helvetica Neue",
+        "Arial",
+        sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}

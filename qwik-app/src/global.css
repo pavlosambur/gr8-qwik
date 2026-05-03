@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "./styles/theme/tokens.css";
+@import "./styles/theme/demo.css";
+
+body {
+    background-color: var(--background-secondary);
+    font-family:
+        medium-content-sans-serif-font,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Open Sans,
+        Helvetica Neue,
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
